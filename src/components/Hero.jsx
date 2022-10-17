@@ -10,7 +10,7 @@ function Hero(props) {
   } 
   return (
     <div>
-      <main>
+      <section>
         <img
           src={props.item.imageUrl}
           alt={props.item.location}
@@ -28,7 +28,7 @@ function Hero(props) {
           </h3>
           <p className="hero--paragraph">{props.item.description}</p>
         </div>
-      </main>
+      </section>
      {isLastProp && <Hrel />} 
     </div>
   );
