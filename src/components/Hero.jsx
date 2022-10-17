@@ -9,7 +9,7 @@ function Hero(props) {
     isLastProp = true
   } 
   return (
-    <div>
+    <div className="container">
       <section>
         <img
           src={props.item.imageUrl}

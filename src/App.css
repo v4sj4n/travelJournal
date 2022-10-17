@@ -107,3 +107,7 @@ section {
   margin-top: 25px;
   margin-bottom: 5px;
 }
+
+.container:last-of-type{
+  margin-bottom: 20px;
+}
