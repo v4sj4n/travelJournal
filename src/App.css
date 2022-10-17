@@ -22,8 +22,10 @@ header {
   padding: 10px;
 }
 main {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
+  padding-top: 20px;
 }
 .hero {
   display: flex;
@@ -35,7 +37,8 @@ main {
   height: 170px;
   object-fit: cover;
   border-radius: 10px;
-  margin: 20px;
+  margin-top: 25px;
+  margin-right: 20px;
 }
 .hero--locationDiv {
   display: flex;
@@ -91,4 +94,11 @@ main {
   font-size: 10.24px;
   line-height: 150%;
   color: #2b283a;
+}
+
+.hr--hero{
+  flex-direction: row;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
